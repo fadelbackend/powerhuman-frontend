@@ -63,10 +63,10 @@
             <img src="/assets/svgs/ic-settings.svg" alt="" />
             Settings
           </nuxt-link>
-          <nuxt-link :to="{}" class="nav-link">
+          <button @click="$auth.logout()" class="nav-link">
             <img src="/assets/svgs/ic-signout.svg" alt="" />
             Logout
-          </nuxt-link>
+          </button>
         </div>
       </div>
     </div>
